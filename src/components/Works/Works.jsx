@@ -40,7 +40,7 @@ const Works = () => {
           ></div>
         </div>
 
-        {/* right side */}
+        {/* right side */} 
       </div>
       <div className="w-right">
         <motion.div

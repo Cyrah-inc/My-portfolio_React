@@ -29,7 +29,7 @@
 }
 .i-name > :nth-child(3) {
   font-weight: 100;
-  font-size: 14px;
+  font-size: 16px;
   color: var(--gray);
   margin-top: 10px;
 }
@@ -71,7 +71,7 @@
   transform: scale(0.30);
   left: -80%;
   right: 20%;
-  bottom: -75%;
+  bottom: -85%;
   
 }
 .i-right > :nth-child(4) {
@@ -105,7 +105,11 @@
 
   .i-right {
     transform: scale(0.8);
-    left: -3rem;
+    left: -4rem;
+  }
+  .i-right > :nth-child(3) {
+    align-self: auto;
+    
   }
   .i-right .blur {
     display: none;
